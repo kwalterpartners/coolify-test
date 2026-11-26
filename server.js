@@ -19,7 +19,7 @@ app.get("/", async (req, res) => {
   res.send(`
     <h1>My first Coolify app</h1>
     <form method="POST" action="/add">
-      <input name="text" placeholder="Write a note" required>
+      <input name="text" placeholder="Write a note here" required>
       <button>Save</button>
     </form>
     <ul>${items}</ul>
